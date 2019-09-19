@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/crystal-cave.jpeg);
+    background-image: url(../images/cave.jpeg);
     padding: 200px 100px;
     margin: 100px;
     background-repeat: repeat-x;
@@ -9,6 +9,7 @@ body {
     background-color: gainsboro;
     font-size: 30px;
     text-align: center;
+    margin: 10px;
 }
 
 .display-4 {
@@ -23,33 +24,50 @@ div.header, div.instructions{
     width: 50%;
     text-align: center;
 }
-/* Classes */
+/* More Classes */
 .numberToMatch, .winsAndLosses{
 	float: left;
 	width: 15%;
-	height: 60px;
+    height: 60px;
+    font-size: x-large;
+    background-color: crimson;
+    color: whitesmoke;
+    text-align: center;
 }
+
 .userTotal{
 	width: 15%;
 	height: 60px;
 }
+
 .gems{
 	clear: both;
 }
+
 .gemImage{
 	height: 60px;
 	margin: 10px;
 }
+
 /* IDs */
 #blue{
 	color: #3092c7;
 }
+
 #green{
 	color: #00aa59;
 }
+
 #red{
 	color: #ec4b5f;
 }
+
 #yellow{
 	color: #ffc225;
+}
+
+.userTotal {
+    font-size: 30px;
+    background: black;
+    color: whitesmoke;
 }
