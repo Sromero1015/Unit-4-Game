@@ -1,0 +1,55 @@
+body {
+    background-image: url(../images/crystal-cave.jpeg);
+    padding: 200px 100px;
+    margin: 100px;
+    background-repeat: repeat-x;
+}
+
+.instructions {
+    background-color: gainsboro;
+    font-size: 30px;
+    text-align: center;
+}
+
+.display-4 {
+    text-align: center;
+}
+
+/* Specfic Elements*/
+div.header, div.gems{
+	background-color: #e0e0eb;
+}
+div.header, div.instructions{
+    width: 50%;
+    text-align: center;
+}
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+/* IDs */
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#yellow{
+	color: #ffc225;
+}
